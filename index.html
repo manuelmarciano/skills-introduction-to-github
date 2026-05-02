@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lares Patagónicos · Decoración de Departamentos en Bariloche</title>
+    <meta name="description" content="Estudio de decoración e interiorismo en San Carlos de Bariloche. Diseñamos departamentos cálidos, modernos y con identidad patagónica.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="brand">
+                <span class="brand-mark">L</span>
+                <span class="brand-text">Lares <em>Patagónicos</em></span>
+            </a>
+            <nav>
+                <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto" class="nav-cta">Cotizar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <p class="eyebrow">Estudio de interiorismo · San Carlos de Bariloche</p>
+            <h1>Tu departamento, <em>con alma de montaña.</em></h1>
+            <p class="hero-sub">Diseñamos espacios cálidos que abrazan el paisaje patagónico. Maderas nobles, texturas naturales y la luz del lago Nahuel Huapi entrando por cada ventana.</p>
+            <div class="hero-actions">
+                <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                <a href="#contacto" class="btn btn-ghost">Agendar visita</a>
+            </div>
+            <div class="hero-stats">
+                <div><strong>+120</strong><span>departamentos intervenidos</span></div>
+                <div><strong>10 años</strong><span>diseñando en la Patagonia</span></div>
+                <div><strong>100%</strong><span>proveedores locales</span></div>
+            </div>
+        </div>
+        <a href="#servicios" class="scroll-hint" aria-label="Bajar">↓</a>
+    </section>
+
+    <section class="services" id="servicios">
+        <div class="container">
+            <header class="section-head">
+                <p class="eyebrow">Qué hacemos</p>
+                <h2>Servicios pensados para quienes viven —o reciben— en Bariloche.</h2>
+            </header>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon">◐</div>
+                    <h3>Diseño integral</h3>
+                    <p>Proyecto a medida con planos, render 3D, paleta de materiales y selección de mobiliario. Llave en mano.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">◑</div>
+                    <h3>Home staging para alquiler</h3>
+                    <p>Departamentos turísticos listos para Airbnb y Booking. Estilo, fotos profesionales y mejor tarifa por noche.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">◒</div>
+                    <h3>Reformas y remodelación</h3>
+                    <p>Coordinamos albañilería, pintura, electricidad y carpintería con un único interlocutor: nosotras.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">◓</div>
+                    <h3>Decoración exprés</h3>
+                    <p>Una asesoría intensiva para refrescar tu departamento sin obra: textiles, color, luz e iluminación.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">●</div>
+                    <h3>Mobiliario a medida</h3>
+                    <p>Carpinteros locales trabajan lenga, raulí y pino patagónico para piezas únicas pensadas para tu metraje.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">○</div>
+                    <h3>Asesoría online</h3>
+                    <p>¿Estás en otra ciudad y comprás en Bariloche? Coordinamos todo a distancia y te entregamos el depto listo.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="proyectos">
+        <div class="container">
+            <header class="section-head">
+                <p class="eyebrow">Proyectos recientes</p>
+                <h2>Departamentos que cuentan una historia.</h2>
+            </header>
+            <div class="filters">
+                <button class="filter active" data-filter="all">Todos</button>
+                <button class="filter" data-filter="centro">Centro</button>
+                <button class="filter" data-filter="lago">Costa del lago</button>
+                <button class="filter" data-filter="cerro">Cerro Catedral</button>
+                <button class="filter" data-filter="turistico">Turístico</button>
+            </div>
+            <div class="gallery">
+                <figure class="project" data-cat="centro">
+                    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=900&q=80')"></div>
+                    <figcaption>
+                        <h4>Monoambiente en Mitre</h4>
+                        <p>32 m² · Centro · 2025</p>
+                    </figcaption>
+                </figure>
+                <figure class="project" data-cat="lago">
+                    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80')"></div>
+                    <figcaption>
+                        <h4>Loft sobre el Nahuel Huapi</h4>
+                        <p>78 m² · Playa Bonita · 2024</p>
+                    </figcaption>
+                </figure>
+                <figure class="project" data-cat="cerro">
+                    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=900&q=80')"></div>
+                    <figcaption>
+                        <h4>Refugio de invierno</h4>
+                        <p>54 m² · Villa Catedral · 2024</p>
+                    </figcaption>
+                </figure>
+                <figure class="project" data-cat="turistico">
+                    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=80')"></div>
+                    <figcaption>
+                        <h4>Departamento turístico Llao Llao</h4>
+                        <p>45 m² · Km 25 · 2025</p>
+                    </figcaption>
+                </figure>
+                <figure class="project" data-cat="centro">
+                    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?auto=format&fit=crop&w=900&q=80')"></div>
+                    <figcaption>
+                        <h4>Dúplex en San Martín</h4>
+                        <p>96 m² · Centro · 2023</p>
+                    </figcaption>
+                </figure>
+                <figure class="project" data-cat="lago">
+                    <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=80')"></div>
+                    <figcaption>
+                        <h4>Pied-à-terre en Melipal</h4>
+                        <p>62 m² · Km 11 · 2023</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="nosotros">
+        <div class="container about-grid">
+            <div class="about-img" aria-hidden="true"></div>
+            <div class="about-text">
+                <p class="eyebrow">Nosotras</p>
+                <h2>Diseño con raíces, manos locales.</h2>
+                <p>Somos un estudio fundado en 2015 por <strong>Camila Aguirre</strong> y <strong>Renata Olivares</strong>, dos arquitectas barilochenses obsesionadas con la luz, la madera y el modo en que un espacio puede hacerte sentir como en casa después de un día en la nieve.</p>
+                <p>Trabajamos con artesanos, carpinteros y textileras de la región. Cada proyecto financia oficios patagónicos y respeta los tiempos del bosque.</p>
+                <ul class="badges">
+                    <li>Matrícula CAPBA</li>
+                    <li>Premio Casa Foa 2022</li>
+                    <li>Comercio Justo Patagonia</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <header class="section-head center">
+                <p class="eyebrow">Lo que dicen nuestros clientes</p>
+                <h2>Confianza que se construye, proyecto a proyecto.</h2>
+            </header>
+            <div class="testimonials-grid">
+                <blockquote>
+                    <p>“Compramos el depto desde Buenos Aires y lo recibimos amueblado, con la heladera llena. Cami y Rena son magas.”</p>
+                    <cite>— Lucía y Mariano · Palermo / Bariloche</cite>
+                </blockquote>
+                <blockquote>
+                    <p>“Nuestro Airbnb pasó de tener 4,6 a 4,95 de calificación. Y subimos la tarifa un 30%.”</p>
+                    <cite>— Federico R. · Inversor inmobiliario</cite>
+                </blockquote>
+                <blockquote>
+                    <p>“Lograron que un monoambiente de 30 m² se sienta como una cabaña. No querés irte nunca.”</p>
+                    <cite>— Sofía D. · Centro de Bariloche</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contacto">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <p class="eyebrow">Hablemos</p>
+                <h2>Contanos sobre tu departamento.</h2>
+                <p>Una primera reunión sin cargo, en nuestro estudio de Bariloche o por videollamada. Te respondemos en menos de 24 horas hábiles.</p>
+                <ul class="contact-list">
+                    <li><span>Estudio</span> Av. Bustillo Km 4,5 · Bariloche</li>
+                    <li><span>Teléfono</span> +54 9 294 412-3456</li>
+                    <li><span>Email</span> hola@larespatagonicos.ar</li>
+                    <li><span>Horario</span> Lun a Vie · 10 a 18 h</li>
+                </ul>
+                <div class="socials">
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Pinterest">Pinterest</a>
+                    <a href="#" aria-label="WhatsApp">WhatsApp</a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm" novalidate>
+                <label>
+                    <span>Nombre</span>
+                    <input type="text" name="nombre" required>
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    <span>Tipo de proyecto</span>
+                    <select name="tipo">
+                        <option>Diseño integral</option>
+                        <option>Home staging / alquiler turístico</option>
+                        <option>Reforma</option>
+                        <option>Decoración exprés</option>
+                        <option>Asesoría online</option>
+                    </select>
+                </label>
+                <label>
+                    <span>Metros cuadrados aprox.</span>
+                    <input type="number" name="m2" min="10" max="500">
+                </label>
+                <label class="full">
+                    <span>Contanos un poco más</span>
+                    <textarea name="mensaje" rows="4" placeholder="Ubicación, fecha estimada, presupuesto…"></textarea>
+                </label>
+                <button type="submit" class="btn btn-primary full">Enviar consulta</button>
+                <p class="form-msg" id="formMsg" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="#inicio" class="brand">
+                    <span class="brand-mark">L</span>
+                    <span class="brand-text">Lares <em>Patagónicos</em></span>
+                </a>
+                <p class="footer-tag">Decoración e interiorismo en San Carlos de Bariloche.</p>
+            </div>
+            <div>
+                <h5>Estudio</h5>
+                <p>Av. Bustillo Km 4,5<br>Bariloche · Río Negro<br>Argentina</p>
+            </div>
+            <div>
+                <h5>Contacto</h5>
+                <p>+54 9 294 412-3456<br>hola@larespatagonicos.ar</p>
+            </div>
+            <div>
+                <h5>Seguinos</h5>
+                <p>@larespatagonicos</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <small>© <span id="year"></span> Lares Patagónicos. Diseñado en la Patagonia.</small>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
